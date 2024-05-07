@@ -1,1 +1,1 @@
-Lorem ipsum dolor sit amet
+This exists to serve as a template for future code 
