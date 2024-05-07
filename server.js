@@ -29,3 +29,15 @@ app.use(
         path.join(__dirname, "public")
     )
 )
+
+app.all(
+    "/",
+    function (request, response) {
+        response.render("home.hbs")
+    }
+)
+
+app.all(
+    "/echo",
+    response.send("Lorem")
+)
